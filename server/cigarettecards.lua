@@ -2,22 +2,22 @@ local VORPcore = exports.vorp_core:GetCore()
 
 local function selectRandomCigaretteCard()
     local cigaretteCards = {
-        {name = "collect_card1", rarity = 50},
-        {name = "collect_card2", rarity = 50},
-        {name = "collect_card3", rarity = 50},
-        {name = "collect_card4", rarity = 50},
-        {name = "collect_card5", rarity = 50},
-        {name = "collect_card6", rarity = 50},
-        {name = "collect_card7", rarity = 50},
-        {name = "collect_card8", rarity = 10},
-        {name = "collect_card9", rarity = 10},
-        {name = "collect_card10", rarity = 50},
-        {name = "collect_card11", rarity = 50},
-        {name = "collect_card12", rarity = 10},
-        {name = "collect_card13", rarity = 50},
-        {name = "collect_card14", rarity = 50},
-        {name = "collect_card15", rarity = 10},
-        {name = "collect_card16", rarity = 50},
+        {name = "collect_card_1_s2", rarity = 1},
+        {name = "collect_card_2_s2", rarity = 25},
+        {name = "collect_card_3_s2", rarity = 50},
+        {name = "collect_card_4_s2", rarity = 25},
+        {name = "collect_card_5_s2", rarity = 50},
+        {name = "collect_card_6_s2", rarity = 50},
+        {name = "collect_card_7_s2", rarity = 75},
+        {name = "collect_card_8_s2", rarity = 75},
+        {name = "collect_card_9_s2", rarity = 50},
+        {name = "collect_card_10_s2", rarity = 50},
+        {name = "collect_card_11_s2", rarity = 50},
+        {name = "collect_card_12_s2", rarity = 10},
+        {name = "collect_card_13_s2", rarity = 10},
+        {name = "collect_card_14_s2", rarity = 10},
+        {name = "collect_card_15_s2", rarity = 10},
+        {name = "collect_card_16_s2", rarity = 1},
     }
 
     local totalRarity = 0

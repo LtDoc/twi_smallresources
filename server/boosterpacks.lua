@@ -1,15 +1,15 @@
 local VORPcore = exports.vorp_core:GetCore()
 
 local boosterPacks = {
-    boosterpack_s1 = {
+    collect_card_s1_booster = {
         standardCards = {"collect_card1", "collect_card2", "collect_card3", "collect_card4","collect_card5",
         "collect_card6","collect_card7","collect_card10","collect_card11","collect_card13","collect_card14","collect_card16"},
         rareCards = {"collect_card8","collect_card9","collect_card12","collect_card15"}
     },
-    boosterpack_s2 = {
-        standardCards = {"collect_card1_s2", "collect_card2_s2", "collect_card3_s2", "collect_card4_s2","collect_card5_s2",
-        "collect_card6_s2","collect_card7_s2","collect_card10_s2","collect_card11_s2","collect_card13_s2","collect_card14_s2","collect_card16_s2"},
-        rareCards = {"collect_card8_s2","collect_card9_s2","collect_card12_s2","collect_card15_s2"}
+    collect_card_s2_booster = {
+        standardCards = {"collect_card_2_s2", "collect_card_3_s2", "collect_card_4_s2","collect_card_5_s2",
+        "collect_card_6_s2","collect_card_7_s2","collect_card_10_s2","collect_card_11_s2","collect_card_8_s2","collect_card_9_s2"},
+        rareCards = {"collect_card_12_s2","collect_card_14_s2","collect_card_13_s2","collect_card_15_s2"}
     },
 }
 
